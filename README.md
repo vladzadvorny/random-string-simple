@@ -18,7 +18,7 @@ $ npm install random-string-simple
 var randomString = require('random-string-simple');
 
 // Simple using
-randomString(); // eyuzolu
+randomString(); // Sg9xFOo
 
 // With params - length and symbols
 randomString(16, 'abc123'); // 11a131baa31c2bcb

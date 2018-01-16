@@ -1,6 +1,7 @@
 module.exports = function(length, symbols) {
   length = length || 7;
-  symbols = symbols || 'abcdefghijklmnopqrstuvwxyz';
+  symbols =
+    symbols || 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
 
   var string = '';
 
