@@ -3,11 +3,9 @@ module.exports = function(length, symbols) {
   symbols =
     symbols || 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
 
-  var string = '';
-
-  Array.from({ length: length }).forEach(() => {
-    string += symbols.charAt(Math.floor(Math.random() * symbols.length));
+  var array = Array.from({ length: length }, function() {
+    return symbols.charAt(Math.floor(Math.random() * symbols.length));
   });
 
-  return string;
+  return array.join('');
 };

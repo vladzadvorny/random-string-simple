@@ -1,6 +1,6 @@
 {
   "name": "random-string-simple",
-  "version": "0.0.2",
+  "version": "1.0.1",
   "description": "Generate a random string",
   "main": "index.js",
   "repository": "https://github.com/vladzadvorny/random-string-simple.git",
